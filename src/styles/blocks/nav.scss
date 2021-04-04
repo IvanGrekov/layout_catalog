@@ -29,6 +29,7 @@
     line-height: $nav-height;
     text-decoration: none;
     color: #000;
+    @include transition400ms(all);
   }
   
   &__link:hover {

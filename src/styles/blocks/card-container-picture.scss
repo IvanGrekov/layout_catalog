@@ -3,7 +3,16 @@
   justify-content: center;
 
   &__img {
+    box-sizing: content-box;
+    padding: getIndent(15px, $picture-border-width) 0;
     width: 160px;
     height: 134px;
+    border: $picture-border-width solid transparent;
+    @include transition400ms(transform);
+  }
+
+  &__img:hover {
+    border-color: $border-color;
+    transform: scale(1.2);
   }
 }

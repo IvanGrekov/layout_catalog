@@ -1,0 +1,3 @@
+@mixin transition400ms($param) {
+  transition: $param 0.4s linear;
+}
