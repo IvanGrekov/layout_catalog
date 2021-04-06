@@ -1,8 +1,3 @@
-@function getWidthContent($cards-in-row, $card-width, $gap) {
-  $content-width: $cards-in-row * $card-width + ($cards-in-row - 1) * $gap;
-  @return $content-width;
-}
-
 @function getIndent($initial-indent, $border-width) {
   $result: $initial-indent - $border-width;
   @return $result;

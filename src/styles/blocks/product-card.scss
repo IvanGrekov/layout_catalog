@@ -1,9 +1,5 @@
 .product-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  width: $card-width;
+  width: 200px;
   padding: 14px;
 
   border: 1px solid $border-color;
